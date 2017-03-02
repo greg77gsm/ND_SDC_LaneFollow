@@ -1,4 +1,7 @@
-
+'''
+PYTHON CODE TO IMPLEMENT PROJECT 1
+   GOT TO GIT HUB MARCH 2
+'''
 
 #importing some useful packages
 import matplotlib.pyplot as plt
@@ -400,9 +403,6 @@ def draw_lines(img, lines, color=[255, 0, 0], thickness=4):
         
     else:
         averageRightSlopeThisFun=AVERAGE_RIGHT_SLOPE        
-
-    #print(" avgLeft slope avg right slope ",averageLeftSlopeThisFun, averageRightSlopeThisFun  )            
-    #print( " numleft numright rightLinesSaved avrightslopeslope", numLeft , numRight,rightLinesSaved,    AVERAGE_RIGHT_SLOPE)
 
     #If we have an average slope going and there usable lines this function the update the slope    
     if averageLeftSlopeThisFun > 0 and  NUM_SLOPE_CALC >=minSlopesToAvg:
