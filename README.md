@@ -34,10 +34,17 @@ In order to get rid of the horizontal and verticl lines I throw away all lines t
 Next I keep a running average of the left lane slope and right line slope.
 The Averae slope is used to extend the lines up to preset line and down to the bottom of the screen.
 
+
+
+I was able to get rid of most of the horizontal lines introduced by the more complex video in the challenge video.
+
+
 2. Identify potential shortcomings
 CURRENTLY MY PROGRAM WORKS FINE WITH THE the solidWhitRight and SolidYellowLeft Mpeg video files. The Challenge.mpg is curently not working very well.
-
- is providing quite a challenge.
+ 
+ If there is too much noise the averaging function can get into trouble and can take a while to reset.
+ 
+ 
 One potential shortcoming would be what would happen when ...
 
 Another shortcoming could be working with different colors of asphault, wet roads and low light condtions
@@ -46,6 +53,6 @@ Another shortcoming could be working with different colors of asphault, wet road
 On the challenge video there are several things that challenge the lane finding. The curve, missing lane marking and heavy shadows and vegitation.
 To make the software much more robust it would really help to have a sophisticated lane average in place. In an acutual car it would be nice to have multiple lane finding routines running at the same time. When one falls short the other could be used while needed.
 
-A possible improvement would be to get rid of the horizontal lines introduced by the more complex video in the challenge video.
+ 
 
 Another potential improvement could be to ...
