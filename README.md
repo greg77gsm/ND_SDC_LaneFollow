@@ -54,5 +54,3 @@ On the challenge video there are several things that challenge the lane finding.
 To make the software much more robust it would really help to have a sophisticated lane average in place. In an acutual car it would be nice to have multiple lane finding routines running at the same time. When one falls short the other could be used while needed.
 
  
-
-Another potential improvement could be to ...
