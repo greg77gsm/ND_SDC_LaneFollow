@@ -45,7 +45,7 @@ CURRENTLY MY PROGRAM WORKS FINE WITH THE the solidWhitRight and SolidYellowLeft 
  If there is too much noise the averaging function can get into trouble and can take a while to reset.
  
  
-One potential shortcoming would be what would happen when ...
+One potential shortcoming is that it takes a while for my program to get the averaging up and running.
 
 Another shortcoming could be working with different colors of asphault, wet roads and low light condtions
 
@@ -53,4 +53,9 @@ Another shortcoming could be working with different colors of asphault, wet road
 On the challenge video there are several things that challenge the lane finding. The curve, missing lane marking and heavy shadows and vegitation.
 To make the software much more robust it would really help to have a sophisticated lane average in place. In an acutual car it would be nice to have multiple lane finding routines running at the same time. When one falls short the other could be used while needed.
 
+4. Use of Spyder instead of Jupyter notebook
+ I was having a hard time getting Jupyter notebook to run so I used Spyder for all my developement.
+ 
+ As you can see by the dates I had the majority of this project completed over a month ago. I was in the process of learning Git to clean up the files, but it took far too long so I am submitting in its current state.
+ 
  
